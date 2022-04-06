@@ -7,7 +7,7 @@ function Contact () {
         <div className="contact ">
 
         <div className="row   ">
-            <div className="col text-light my-5 py-5">
+            <div className="col text-light  py-5">
         <Lefth h1='CONTACT' h2='US' />
 
             </div>

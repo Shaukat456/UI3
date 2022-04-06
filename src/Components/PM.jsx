@@ -6,7 +6,7 @@ function PM(props) {
     
     <>
     
-    <div className="contact bgga">
+    <div className="contact bgga py-5 ">
 
 <div className="row    ">
     <div className="col text-light fff  ">
@@ -15,8 +15,11 @@ function PM(props) {
     </div>
 
 
-<div className="col ">
+<div className="col  my-5">
+    <div className="bg-dark">
+        
     <PMC/>
+    </div>
 </div>
 
 </div>
