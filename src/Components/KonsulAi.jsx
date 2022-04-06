@@ -1,6 +1,7 @@
 import Cards from "./Cards";
 import Kcards from "./KCards";
 import Lefth from "./lefthed";
+import PM from './PM'
 // import SecH from './secH'
 
 function KonsulAi() {
@@ -309,6 +310,8 @@ Thus a legal professional does not need to waste time doing routine contract che
                 
                 
                 </div>
+                <PM/>
+    
         </div>
     
     

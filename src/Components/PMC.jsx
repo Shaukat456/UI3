@@ -18,14 +18,14 @@ function PMC(props) {
               
         <div id="accordion  sa">
         <div className="card ">
-          <div className="card-header  " id="headingOne">
+          <div className="card-header  d-flex justify-content-between" id="headingOne">
             <h5 className="mb-0 text-white   " >
               <button className="btn  text-white btnh  bg-transparent btn-outline-none " data-toggle="collapse" data-target={'#collapse' + mod.id} aria-expanded="true" aria-controls={`collapse` + mod.id}>
                   {mod.h}
               </button>
             </h5> 
             <figure>
-
+              <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61227001e10591f9b9d4b3e0_Rectangle%2086.svg" alt="" />
             </figure>
           </div>
       

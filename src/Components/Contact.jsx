@@ -1,9 +1,10 @@
 import Lefth from './lefthed'
 import Button from './Button';
+import Footer from './Footer';
 function Contact () {
     return ( 
         <>
-        <div className="contact">
+        <div className="contact ">
 
         <div className="row   ">
             <div className="col text-light my-5 py-5">
@@ -37,7 +38,7 @@ function Contact () {
             </div>
 </div>
         </div>
-        <div className="row">
+        <div className="row mb-5 pb-5">
             <div className="col">
 
             <div className="d-flex mx-2" style={{alignItems:'center'}}>
@@ -57,6 +58,8 @@ function Contact () {
         <p className='mx-4 w-50 ints'> By clicking on the button, I accept the terms of the transfer of personal data and agree to the privacy policy</p>
             </div>
         </div>
+        <Footer/>
+        
         </div>
         
         </>

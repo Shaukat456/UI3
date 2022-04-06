@@ -4,6 +4,8 @@ import PMC from "./PMC";
 
 function  Platform() {
     return (  <>
+
+
     <div className="row text-light tec">
      
      <div className="col text-light d-flex teamm">
@@ -35,7 +37,6 @@ The Platform is production-ready, scalable and can be modified to cope with cust
 
 
 {/* <PMC/> */}
-<PM/>
 
 {/* <PMC  
 h='Full-text search'

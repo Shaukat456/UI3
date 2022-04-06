@@ -4,6 +4,7 @@ import Platform from "./Platform";
 import {Fade, Slide} from 'react-reveal'
 import Contact from "./Contact";
 import Footer from './Footer'
+import PM from "./PM";
 
 
 function Team() {

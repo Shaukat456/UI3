@@ -6,9 +6,9 @@ function PM(props) {
     
     <>
     
-    <div className="contact">
+    <div className="contact bgga">
 
-<div className="row  cc  ">
+<div className="row    ">
     <div className="col text-light fff  ">
 <Lefth h1='PLATFORM ' h2='MODULES' />
 

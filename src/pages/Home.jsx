@@ -133,7 +133,6 @@ function Home() {
                
             
             <Team/>
-
         </div>
 
         {/* </ScrollContainer> */}
