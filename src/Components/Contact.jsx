@@ -11,6 +11,7 @@ function Contact () {
         <Lefth h1='CONTACT' h2='US' />
 
             </div>
+            
 
 
 <div className="col my-5 py-5">
