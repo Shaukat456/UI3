@@ -38,7 +38,7 @@ function PMC(props) {
               {/* </div> */}
       
               {/* <div className="col"> */}
-                  <p className="col mx-5 dp"> {mod.p} </p>
+                  <p className="col text-light mx-5 dp"> {mod.p} </p>
               {/* </div> */}
             </div>
           </div>

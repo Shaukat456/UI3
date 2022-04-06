@@ -14,7 +14,7 @@ function Contact () {
 
 
 <div className="col my-5 py-5">
-            <div className="row text-light">
+            <div className="row text-light as">
                 <div className="col-6">
                     <h2>Your name  </h2>
                     <input type="text" placeholder='John Smith *'/>

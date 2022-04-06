@@ -39,9 +39,13 @@ background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb89
 /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%); */
 /* overflow: hidden; */
 /* font-family: 'Mont', sans-serif; */
-font-family: 'Mont', sans-serif;
+/* font-family: 'Mont', sans-serif; */
+font-family: 'Montserrat', sans-serif;
 /* overflow-x: hidden; */
      
+}
+.as h2{
+  font-size: 2.6rem;
 }
 .plaf{
   overflow: hidden;
@@ -214,7 +218,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
     /* text-decoration: dotted; */
     /* line-height: 600px; */
     /* font-size: ; */
-    font-weight: 100;
+    font-weight: 500;
   }
   .head2{
     color: #42d5b8;
