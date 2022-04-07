@@ -48,7 +48,7 @@ overflow-x: hidden;
   font-size: 2.6rem;
 }
 .plaf{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .ygg {
   /* font-family: ; */
@@ -56,6 +56,8 @@ overflow-x: hidden;
   font-weight: 500;
 
 }
+
+
 
 .intro{
     border-radius: 4%;
@@ -91,10 +93,16 @@ overflow-x: hidden;
   font-size: 4rem;
 
 }
-.brd{
+.line_grid{
   /* width: 20px; */
-  border-top: 1px solid wheat;
+  /* border-top: 1px solid wheat; */
   /* width: 1px; */
+  width: 100%;
+  background-color: #fff;
+}
+.brd h5{
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .kaq{

@@ -83,11 +83,11 @@ function KonsulAi() {
             </div>
             
             <div className="col-6 text-light kaq py-5">
-                <p>Konsul is an AI-based software for contract analysis. It checks the content of a contract and minimizes legal risks by highlighting negative conditions, regulatory inconsistencies and counterparty edits.
+                <p>Konsul is an AI-based software for contract analysis. It automatically reviews contracts, mitigates risks by identifying suboptimal terms, finds deviations from already approved contracts and suggests corrections
+
             <br />
             <br />
-            <br />
-Thus a legal professional does not need to waste time doing routine contract checking because Konsul AI immediately draws their attention to all the important clauses of the contract and suggests possible solutions.
+            So legal professionals do not need to waste time on routine proofreading of a document because Konsul immediately draws their attention to all the important clauses of the contract
 
                 </p>
 
@@ -97,10 +97,12 @@ Thus a legal professional does not need to waste time doing routine contract che
                     
                 
                 <div className="col-lg-6 brd ">
-                        <h3 className="text-center head2 " id='sev'>70%</h3>
+                <div data-w-id="13fe3e31-0ab2-3535-f200-77d2555f742d" style={{height:'2px'}} class="line_grid"></div>
+
+                        <h3 className=" head2 my-3" id='sev'>70%</h3>
                        <h5> 
+                       of contract cycle time saved
                            
-                            The time spent on evaluating and negotiating contracts is reduced by 70%
                            </h5> 
                 </div>
                     
@@ -108,16 +110,50 @@ Thus a legal professional does not need to waste time doing routine contract che
 
 
                 <div className="col-lg-6 brd">
-                    <h3 className="text-center head2" id='fiv'>5 min</h3>
-                    <h5>With Konsul AI, contract checking only takes 5 minutes</h5>
+                <div data-w-id="13fe3e31-0ab2-3535-f200-77d2555f742d" style={{height:'2px'}} class="line_grid"></div>
+                    <h3 className=" my-3 head2" id='fiv'>5 min</h3>
+                    <h5>to review a contract</h5>
                 </div>
                 </div>
+
+
+
+
+
+
+
+
 
 
                 <div className="cardds row-auto d-flex my-5  ">
                     <div className="col">
                     <p className="my-5">BENEFITS</p>
+
+<div className="slider_wrap">
+
+        <div className="splide slider2 splide--slide splide--ltr splide--draggable is-active is-initialized">
+            <div className="splide__track w-dyn-list">
+                <div className="splide__list w-dyn-items">
+
+                    
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
         <div className="d-lg-flex">
+
+
+
 
        
 
@@ -221,7 +257,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 <Kcards 
                 h='Match to templates'
-                p='See if a document matches an approved template so you can define if it is standard  your company'
+                p='See if a document matches an approved template so you can   standard  your company'
                 img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77411cba7f96f75f87_noun_abstract_1750748%201.svg'
                 
 />
@@ -244,7 +280,7 @@ Thus a legal professional does not need to waste time doing routine contract che
 
                 <Kcards 
                 h='Train algorithms'
-                p='Add new risks and train machine learning algorithms to customize Konsul for your contracts and industry'
+                p='Add new risks and  algorithms to customize Konsul for your contracts and industry'
                 img='https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61225a77bc5a47c081d3930a_Frame%2047495.svg'
                 
 />
