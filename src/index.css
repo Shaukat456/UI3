@@ -13,6 +13,7 @@ html{
     /* font-size: 3.5em; */
     line-height: 10px;
     font-weight: 500;
+
 }
 .dp{
   font-weight: 700;
@@ -31,11 +32,12 @@ align-items: center;}
 }
 body{
   transition: all .7s ease-in ;
-    background-color: #091a36;;
+    /* background-color: #091a36;; */
     /* background: rgb(2,0,36); */
 /* background: linear-gradient(90deg, rgba(2,20,36,1) 0%, rgba(29,0,121,1) 33%, rgba(0,212,255,1) 93%); */
 /* background: rgb(2,0,36); */
-background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb890ecf57ba67ad1ada3a_Frame-47542123-kjb.jpg') no-repeat;
+background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb890ecf57ba67ad1ada3a_Frame-47542123-kjb.jpg') ;
+/* background-size: ; */
 /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 65%, rgba(0,212,255,1) 100%); */
 /* overflow: hidden; */
 /* font-family: 'Mont', sans-serif; */
@@ -43,6 +45,9 @@ background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb89
 font-family: 'Montserrat', sans-serif;
 overflow-x: hidden;
      
+}
+.hrim{
+
 }
 .as h2{
   font-size: 2.6rem;
@@ -315,7 +320,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
 .heroh::after{
   content: '';
   position: absolute;
-  background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61268f6d4076c165dce4c16f_green.svg');
+  /* background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61268f6d4076c165dce4c16f_green.svg'); */
   /* align-items: flex-end; */
   height: 200px;
   width: auto;

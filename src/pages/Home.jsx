@@ -19,11 +19,11 @@ function Home() {
     return ( <>
     {/* <ScrollContainer> */}
 
-        <div className="container-fluid   ">
+        <div className="container-fluid   hrim">
             <Navbar/>
 
                   
-            <div className="hcomp mx-lg-4 mx-sm-2 py-lg-5 py-sm-3">
+            <div className="hcomp  mx-lg-4 mx-sm-2 py-lg-5 py-sm-3"   >
             <Reveal bottom >
 
 
