@@ -241,9 +241,10 @@ function KonsulAi() {
 
                 
                 <div className="col-6  my-2">
+                    
 
                     <div className="row">
-
+        
                     <div className="col-6 my-3">
                 <Kcards 
                 h='Mitigate risks'
@@ -306,21 +307,21 @@ function KonsulAi() {
                     <div className="col-6 my-5 p-5 text-light  ">
                         <h3>Konsul AI is based on several key technologies</h3>
                     
-                        <div className="row mx-1 my-5  w-75  ">
-                            <span className="d-lg-flex fontss  " style={{alignItems:'center'}} >
-                                <p className="head2 fontss num">01</p>
+                        <div className="row mx-1 my-5    ">
+                            <span className="d-lg-flex fontss fw  " style={{alignItems:'center'}} >
+                                <p className="head2 fontss num fw">01</p>
                                 <p className="mx-2">Our own neural network language model trained on millions of legal documents</p>
                                 
                             </span>
                           
-                            <span className="d-lg-flex fontss " style={{alignItems:'center'}}>
-                                <p className="head2 fontss num blue " >02</p>
+                            <span className="d-lg-flex fontss fw " style={{alignItems:'center'}}>
+                                <p className="head2 fontss num blue  fw" >02</p>
                                 <p className="mx-2">Heuristic methods developed by legal experts to improve quality of contract checking</p>
                                 
                             </span>
                           
-                            <span className="d-lg-flex fontss  " style={{alignItems:'center'}}>
-                                <p className="head2 fontss num morblue">03</p>
+                            <span className="d-lg-flex fontss  fw" style={{alignItems:'center'}}>
+                                <p className="head2 fontss num morblue fw">03</p>
                                 <p className="mx-2">Deep Learning classification model based on new Transformer architecture</p>
                                 
                             </span>
@@ -330,9 +331,7 @@ function KonsulAi() {
 
                         </div>
 
-                        <div className="linebreak my-5" >
-                            break
-                        </div>
+                        <div class="div-block-9"><div class="line_90"></div></div>
 
 
 

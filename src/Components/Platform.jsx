@@ -20,7 +20,7 @@ function  Platform() {
      
      </div>
      <div className="col col-6 teamm">
-    
+     <div class="div-block-9"><div class="line_90"></div></div>
      <h3     className="heads ygg para py-5 para pr-5 mr-5">
 YGGY Platform is an intelligent platform based on state-of-the-art Machine Learning technologies, which converts piles of unstructured text data into business value.
 

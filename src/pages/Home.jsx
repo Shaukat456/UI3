@@ -54,9 +54,9 @@ function Home() {
                     
                     </span> 
 
-<span className="d-md-flex col offset-md-5   ">
+<span className="d-md-flex col-lg offset-md-5   ">
 
-                  <h1 className="  col  ">TECHNOLOGIES</h1>
+                  <h1 className="  col-lg  ">TECHNOLOGIES</h1>
                     </span> 
                         
                 </div>

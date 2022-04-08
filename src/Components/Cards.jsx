@@ -1,6 +1,6 @@
 function Cards(props) {
     return (  <>
-            <div className="d-lg-flex  flex-column w-100 text-light mx-2 p-5 card">
+            <div className="d-lg-flex  flex-column w-100 text-light mx-2 p-5  mb-5 pb-5   card">
                     <figure>
                         <img src={props.img} alt="img" />
                         
