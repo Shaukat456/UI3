@@ -54,23 +54,7 @@ function KonsulAi() {
 
         <div className="row">
 
-        <figure>
-            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fd1d2dd31bab980377c86a_Line%2071_new%201.svg" alt="" />
-        </figure>
-
-
-
-        <figure>
-            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6be997627b33ed8101e6_Vector_2.svg" className="offset-4" alt="" />
-        </figure>
-
-        <figure>
-            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b83cd8ba2b0e3a69a6486_Line%2070.svg" alt="" />
-        </figure>
-
-          <figure>
-              <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612e771f5c2576a04dc0ba7a_Line%2070new.svg" alt="" />
-          </figure>
+        <div style={{ width:'100px' }} className ="line_hor_center-copy"></div>
             
         </div>
 
@@ -127,9 +111,9 @@ function KonsulAi() {
 
                 <div className="cardds row-auto d-flex my-5  ">
                     <div className="col">
-                    <p className="my-5">BENEFITS</p>
+                    <p className="my-5 bp">BENEFITS</p>
 
-<div className="slider_wrap">
+{/* <div className="slider_wrap">
 
         <div className="splide slider2 splide--slide splide--ltr splide--draggable is-active is-initialized">
             <div className="splide__track w-dyn-list">
@@ -140,7 +124,7 @@ function KonsulAi() {
             </div>
         </div>
 
-</div>
+</div> */}
 
 
 
@@ -189,12 +173,18 @@ function KonsulAi() {
 </div>
 
 
-        <div className="row">
+        <div className="row ">
             <div>
-       
-            <figure>
+            <div className="btn btn-primary  flex-column text-dark  lightbox_circle ">
+                <figure>
+                    <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612256fc52b927d49d0637ef_Polygon%201.svg" alt="" />
+                </figure>
+                Watch video
+            </div>
+            <figure >
+                
                 <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3dd9c3537cf54b517f_Ellipse%2025.svg" alt="" />
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" alt="" />
+                {/* <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" alt="" /> */}
                 <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" alt="" />
                 <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3e89146980d00b627d_Ellipse%2027.svg" alt="" />
             </figure>

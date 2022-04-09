@@ -15,7 +15,7 @@ function PM(props) {
     </div>
 
 
-<div className="col bg-light  rounded-lg p-5 ">
+<div className="col bg  btnr p-5 ">
     <div className="bg-dark">
         
     <PMC/>
