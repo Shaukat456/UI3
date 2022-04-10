@@ -27,10 +27,10 @@ function Navbar() {
             <div className="col text-light bg-none  py-3 ">
       <nav class="navbar navbar-expand-lg navbar-light bg-none">
   {/* <a class="navbar-brand" href="#">Navbar</a> */}
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="collapse navbar-collapse " id="navbarNav">
     <ul class="navbar-nav text-light">
       <li class="nav-item  text-light  text-capitalize">
         <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
