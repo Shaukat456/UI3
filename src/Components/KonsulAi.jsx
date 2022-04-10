@@ -184,12 +184,12 @@ function KonsulAi() {
                 </figure>
                 Watch video
             </div>
-            <figure >
+            <figure  className="d-flex">
                 
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3dd9c3537cf54b517f_Ellipse%2025.svg" alt="" />
-                {/* <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" alt="" /> */}
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" alt="" />
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3e89146980d00b627d_Ellipse%2027.svg" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3dd9c3537cf54b517f_Ellipse%2025.svg" id='vw1'    alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" id='vw2' alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" id='vw3' alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3e89146980d00b627d_Ellipse%2027.svg" id='vw4'  alt="" />
             </figure>
             </div>
         </div>

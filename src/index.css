@@ -521,6 +521,26 @@ input{
   transform: translateY(-400%);
 }
 
+#vw1{
+  transform: translateX(-50%);
+  /* z-index: 6; */
+}
+#vw2{
+ 
+  transform: translateX(-180%);
+  z-index: 4;
+}
+#vw3{
+  transform: translateX(-270%);
+  z-index: 3;
+  /* z-index: ; */
+
+}
+
+#vw4{
+  z-index: 2;
+  transform: translateX(-600%);
+}
 .rb{
   border-radius: 40px;
   border: 2px solid #d6d6d6;
