@@ -19,7 +19,7 @@ function Home() {
     return ( <>
     {/* <ScrollContainer> */}
 
-        <div className="container-fluid   hrim">
+        <div className="container-fluid  text-break   hrim">
             <Navbar/>
 
                   
@@ -32,7 +32,7 @@ function Home() {
                   <h1>WORK</h1>
 {/* <Animator animation={batch(Move(0,19))}> */}
 
-                     <h1 className="   white_stroke" id='bter'> BETTER </h1>
+                     <h1 className="white_stroke" id='bter'> BETTER </h1>
 
 {/* </Animator> */}
                      {/* <figure > */}

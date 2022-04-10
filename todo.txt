@@ -31,3 +31,8 @@ fonts verify
 
 kai cards height
 try it section
+
+
+
+text not wrapping
+hide horizontal scroll but it should keep functioning 

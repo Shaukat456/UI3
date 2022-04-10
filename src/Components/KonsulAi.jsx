@@ -7,14 +7,15 @@ import PM from './PM'
 function KonsulAi() {
     return (  <>
     
-        <div className="row kaaai">
-            <div className="KAI d-lg-flex ">
-                <h1 className="kaih text-light ">
-                KONSUL  AI
+        <div className="row kaaai    ">
+            <div className="KAI   d-lg-flex  ">
+                {/* <h1 className="kaih text-light "> */}
                 {/* <h2 className="white-stroke">AI</h2> */}
-                </h1>  
+                {/* </h1>   */}
 
-                
+                 
+                <div className="kaih text-light ">  KONSUL   </div>      
+                <div className=" kaih white_stroke offset-1   text-break ">  AI</div>          
 
               
 
@@ -61,10 +62,8 @@ function KonsulAi() {
             <div className=" pb-1">
            <Lefth h1='SEE HOW ' h2='IT WORKS'/>
            
-
             </div>
-
-            </div>
+           </div>
             
             <div className="col-6 text-light kaq py-5">
                 <p>Konsul is an AI-based software for contract analysis. It automatically reviews contracts, mitigates risks by identifying suboptimal terms, finds deviations from already approved contracts and suggests corrections

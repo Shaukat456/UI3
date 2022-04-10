@@ -4,6 +4,7 @@ html{
 *{
   box-sizing: border-box;
   transition: all .5s ease;
+  /* word-break: break-word; */
 }
 
 
@@ -45,6 +46,9 @@ font-family: 'Montserrat', sans-serif;
 background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb890ecf57ba67ad1ada3a_Frame-47542123-kjb.jpg') #0c1e3d;
 background-repeat: no-repeat;
 overflow-x: hidden;
+  /* overflow-wrap: break-word; */
+/* word-wrap: break-word; */
+/* wr */
      
 }
 
@@ -191,6 +195,7 @@ overflow-x: hidden;
   }
   .kaih{
     font-size: 20rem;
+    /* text-overflow: ; */
   }
   .KAI{
     font-size: 2.08em;
