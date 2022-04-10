@@ -45,7 +45,7 @@ body{
 /* font-family: 'Mont', sans-serif; */
 /* font-family: 'Mont', sans-serif; */
 font-family: 'Montserrat', sans-serif;
-background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb890ecf57ba67ad1ada3a_Frame-47542123-kjb.jpg') center/cover;
+background: url('https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61fb890ecf57ba67ad1ada3a_Frame-47542123-kjb.jpg') currentColor;
 background-repeat: no-repeat;
 /* background-size: cover; */
 /* background-position-x:calc(4); */
@@ -307,7 +307,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 1%, rgba
     /* height: auto; */
     /* width: auto; */
     /* background-color: #0c1e3d; */
-    backdrop-filter: opacity(20%) ;
+    backdrop-filter: opacity(50%) blur(200px) ;
     z-index: 4;
   }
   .def{
@@ -523,7 +523,7 @@ input{
 
 #vw1{
   transform: translateX(-50%);
-  /* z-index: 6; */
+  z-index: 6;
 }
 #vw2{
  

@@ -5,11 +5,11 @@ import Home from './pages/Home';
 const App=()=>{
     return(
         <>
-        {/* <Fade > */}
+        
         
         <Home/>
 
-        {/* </Fade> */}
+        {
       
         </>
     )
