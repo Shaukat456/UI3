@@ -36,3 +36,7 @@ try it section
 
 text not wrapping
 hide horizontal scroll but it should keep functioning 
+
+zindex of diamond images
+transform images to combine them
+simple parallax to diamond images

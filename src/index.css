@@ -34,6 +34,7 @@ align-items: center;}
 }
 body{
   transition: all .7s ease-in ;
+  scroll-behavior: smooth;
     /* background-color: #091a36;; */
     /* background: rgb(2,0,36); */
 /* background: linear-gradient(90deg, rgba(2,20,36,1) 0%, rgba(29,0,121,1) 33%, rgba(0,212,255,1) 93%); */
@@ -498,6 +499,26 @@ input{
   color: white;
   border-style: none;
   border-bottom: 1px solid #2e837d;
+}
+
+#i1{
+  
+  transform: translateY(10%);
+}
+#i2{
+  transform: translateY(-100%);
+
+}
+#i3{
+  transform: translateY(-200%);
+
+}
+#i4{
+  transform: translateY(-300%);
+
+}
+#i5{
+  transform: translateY(-400%);
 }
 
 .rb{

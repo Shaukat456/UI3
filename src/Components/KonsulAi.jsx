@@ -2,6 +2,7 @@ import Cards from "./Cards";
 import Kcards from "./KCards";
 import Lefth from "./lefthed";
 import PM from './PM'
+import { Fade}  from 'react-reveal'
 // import SecH from './secH'
 
 function KonsulAi() {
@@ -22,33 +23,35 @@ function KonsulAi() {
 
             </div>
             <div className="row-cols-2 d-lg-flex text-light my-5 ">
+            <Fade bottom>
 
             <div className="col-6 d-flex flex-column my-5 scrls">
                  
 
             <figure >
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e788c9e6bc08ac3c4_Rectangle%2079.svg" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e788c9e6bc08ac3c4_Rectangle%2079.svg"  style={{ zIndex:'6' }}  id='i1'  alt="" />
               
                 {/* <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6be997627b33ed8101e6_Vector_2.svg" alt="" /> */}
             </figure>
 
             <figure>
-            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e3a5724fc149a4aeb_Rectangle%2078.svg" alt="" />
+            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e3a5724fc149a4aeb_Rectangle%2078.svg"   style={{ zIndex:'7' }}  id='i2' alt="" />
                 
             </figure>
             <figure>
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e08e8df59251d2705_Rectangle%2075.svg" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e08e8df59251d2705_Rectangle%2075.svg"  style={{ zIndex:'8' }}  id='i3' alt="" />
             </figure>
 
             <figure>
            
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640ef55a8371531a2700_Rectangle%2077.svg" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640ef55a8371531a2700_Rectangle%2077.svg"  style={{ zIndex:'9' }} id='i4'  alt="" />
             </figure>
 
-        <figure>
-        <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612e75af4f61582f3c77ebbc_Rectangle%2077_2.svg" alt="" />
+        {/* <figure>
+        <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612e75af4f61582f3c77ebbc_Rectangle%2077_2.svg"  style={{ zIndex:'10' }} id='i5' alt="" />
 
-        </figure>
+        </figure> */}
+
 
 
         {/* <div class="line_hor_center"></div> */}
@@ -64,6 +67,7 @@ function KonsulAi() {
            
             </div>
            </div>
+        </Fade>
             
             <div className="col-6 text-light kaq py-5">
                 <p>Konsul is an AI-based software for contract analysis. It automatically reviews contracts, mitigates risks by identifying suboptimal terms, finds deviations from already approved contracts and suggests corrections
