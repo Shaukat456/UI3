@@ -6,9 +6,9 @@ function  Platform() {
     return (  <>
 
 
-    <div className="row text-light tec">
+    <div className="row text-light d-lg-flex tec">
      
-     <div className="col text-light d-flex teamm">
+     <div className="col text-light d-lg-flex teamm rep">
 
          <h1 className=" ">YGGY  </h1>
        <h1 className="white_stroke mx-2 plaf ">PLATFORM</h1>

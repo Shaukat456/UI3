@@ -57,7 +57,7 @@ overflow-x: hidden;
 /* overflow-wrap: break-word; */
 /* wr */
 /* overflow-anchor: ;      */
-/* word-break: normal; */
+word-break: normal;
 
 }
 
@@ -692,12 +692,40 @@ input{
 
 @media only screen and (max-width:1700px) {
   html{
-    font-size: 1rem;
+    font-size: .95rem;
   }
   
   .KAI {
     text-align: center;
     font-size: .8rem;
+    flex-direction: column;
   }
   
+  .rep{
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* word-wrap: break-word; */
+    /* overflow-wrap: inherit; */
+    word-wrap: break-word;
+   
+  }
+  .teamm{
+    margin-top: 10px;
+  flex-direction: column;
+
+  }
+  .a12{
+    display: none;
+  }
+.member{
+  margin-top: 60px;
+  /* width: 100%; */
 }
+.des{
+  /* width: max-content; */
+  font-size: .8rem;
+
+}
+}
+
+

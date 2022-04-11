@@ -6,9 +6,9 @@ function Members(props) {
 <>
 <Fade bottom>
 
-<div className=" member d-flex">
+<div className=" member d-lg-flex ">
 
-          <div className="col">
+          <div className="col  ">
 
           <figure>
             <img src={props.img} alt="" className="mimg" />

@@ -13,26 +13,26 @@ function Team() {
 
         <>
         
-        <div className="row text-light tec">
+        <div className="row text-light tec   d-lg-flex  justify-content-lg-center ">
       
-          <div className="col text-light white_stroke teamm">
+          <div className="col-lg  text-light white_stroke teamm text-center">
 
               <h1 className=" white_stroke">OUR </h1>
 
 
               <figure>
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591a65ebf3eeaa4f699_Vector6.svg" className="" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591a65ebf3eeaa4f699_Vector6.svg" className="a12" alt="" />
               </figure>
               <figure>
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591b03cedb07dfa2c41_Vector4.svg " className="ar_team_2" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591b03cedb07dfa2c41_Vector4.svg " className="a12 ar_team_2" alt="" />
               </figure>
 
 <figure>
-  <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61393b5928313038e04266ec_%E2%9C%A6.svg" alt="" />
+  <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61393b5928313038e04266ec_%E2%9C%A6.svg" className="a12" alt="" />
 </figure>
 
           </div>
-          <div className="col-6 teamm">
+          <div className="col-6   teamm">
             <h1>TEAM</h1>
           <Members
           img='https://uploads-ssl.webflow.com/61221299a58304715ac08aef/614b46d0ff249572b3c3681b_grigory-p-500.jpeg'
