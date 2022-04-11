@@ -10,10 +10,17 @@ import {Fade, Reveal, Slide} from 'react-reveal'
 import { Animator, ScrollContainer, ScrollPage, batch, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import Testig from "../Components/Testing";
 import PM from "../Components/PM";
+import simpleParallax from 'simple-parallax-js';
 
 
 function Home() {
     
+    const arow=document.getElementById('ari1');
+
+    new simpleParallax(arow,{
+        overflow: true,
+        orientation: 'left'
+    })
 
     
     return ( <>
@@ -48,7 +55,7 @@ function Home() {
                 <span className=" d-md-flex col-lg-8 flex-lg-nowrap flex-md-wrap   " >
                   <h1 >WITH</h1>
                   <figure>
-                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg" className="arrimg " alt="" />
+                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg" className="arrimg " id='ari1' alt="" />
                   </figure>
                      <h1 className="d-flex mr-md-5 pr-md-3" >YGGY</h1>
                     

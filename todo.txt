@@ -42,3 +42,7 @@ transform images to combine them
 simple parallax to diamond images
 individually apply scroll effect to each image 
 for text use vanilla js for image use simple parallax library 
+
+
+
+appear above when scrolled 

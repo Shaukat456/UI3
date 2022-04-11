@@ -3,9 +3,68 @@ import Kcards from "./KCards";
 import Lefth from "./lefthed";
 import PM from './PM'
 import { Fade}  from 'react-reveal'
+import simpleParallax from 'simple-parallax-js';
 // import SecH from './secH'
 
 function KonsulAi() {
+    
+    function imageScroll(){
+
+        const diamond_Images=document.querySelectorAll(".dimg");
+        new simpleParallax(   
+            diamond_Images ,
+            {
+                delay: 0,
+                orientation: 'down',
+                scale: 1.3,
+                overflow: true,
+                // customWrapper:''
+            }
+    
+           )
+        const appearOnScroll=document.querySelectorAll("img");
+        new simpleParallax(   
+            appearOnScroll ,
+            {
+                delay: 0,
+                orientation: 'up',
+                scale: 1.3,
+                overflow: true,
+                // customWrapper:''
+            }
+    
+           )
+
+           const diamond_Image=document.querySelectorAll(".vwi");
+           new simpleParallax(   
+               diamond_Image ,
+               {
+                   delay: 0,
+                   orientation: 'right',
+                   scale: 1.3,
+                   overflow: true,
+                   // customWrapper:''
+               }
+       
+              )
+       
+            
+       
+       
+       
+       
+       
+       
+       
+            }
+
+       
+       
+   
+
+    
+
+
     return (  <>
     
         <div className="row kaaai    ">
@@ -29,22 +88,22 @@ function KonsulAi() {
                  
 
             <figure >
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e788c9e6bc08ac3c4_Rectangle%2079.svg"  style={{ zIndex:'6' }}  id='i1'  alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e788c9e6bc08ac3c4_Rectangle%2079.svg"  style={{ zIndex:'6' }} className='dimg'   id='i1'  alt="" />
               
                 {/* <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6be997627b33ed8101e6_Vector_2.svg" alt="" /> */}
             </figure>
 
             <figure>
-            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e3a5724fc149a4aeb_Rectangle%2078.svg"   style={{ zIndex:'7' }}  id='i2' alt="" />
+            <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e3a5724fc149a4aeb_Rectangle%2078.svg"   style={{ zIndex:'7' }} className='dimg'   id='i2' alt="" />
                 
             </figure>
             <figure>
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e08e8df59251d2705_Rectangle%2075.svg"  style={{ zIndex:'8' }}  id='i3' alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e08e8df59251d2705_Rectangle%2075.svg"  style={{ zIndex:'8' }} className='dimg'   id='i3' alt="" />
             </figure>
 
             <figure>
            
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640ef55a8371531a2700_Rectangle%2077.svg"  style={{ zIndex:'9' }} id='i4'  alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640ef55a8371531a2700_Rectangle%2077.svg"  style={{ zIndex:'9' }}  className='dimg' id='i4'  alt="" />
             </figure>
 
         {/* <figure>
@@ -55,6 +114,13 @@ function KonsulAi() {
 
 
         {/* <div class="line_hor_center"></div> */}
+
+
+        { 
+        imageScroll()
+        }
+
+
 
         <div className="row">
 
@@ -186,10 +252,10 @@ function KonsulAi() {
             </div>
             <figure  className="d-flex">
                 
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3dd9c3537cf54b517f_Ellipse%2025.svg" id='vw1'    alt="" />
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" id='vw2' alt="" />
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" id='vw3' alt="" />
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3e89146980d00b627d_Ellipse%2027.svg" id='vw4'  alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3dd9c3537cf54b517f_Ellipse%2025.svg" id='vw1' className="vwi"     alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" id='vw2' className="vwi"  alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3d97627b0741810f87_Ellipse%2026.svg" id='vw3'  className="vwi" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6e3e89146980d00b627d_Ellipse%2027.svg" id='vw4'  className="vwi"  alt="" />
             </figure>
             </div>
         </div>
