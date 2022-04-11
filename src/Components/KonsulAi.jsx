@@ -4,49 +4,58 @@ import Lefth from "./lefthed";
 import PM from './PM'
 import { Fade}  from 'react-reveal'
 import simpleParallax from 'simple-parallax-js';
+import { useState } from "react/cjs/react.production.min";
 // import SecH from './secH'
 
 function KonsulAi() {
+
+     
+    const diamond_Images=document.querySelector(".dimg");
+    console.log(diamond_Images)
+
+  
     
     function imageScroll(){
 
-        const diamond_Images=document.querySelectorAll(".dimg");
-        new simpleParallax(   
-            diamond_Images ,
-            {
-                delay: 0,
-                orientation: 'down',
-                scale: 1.3,
-                overflow: true,
-                // customWrapper:''
-            }
+        // const diamond_Images=document.querySelectorAll(".dimg");
+        // new simpleParallax(   
+        //     diamond_Images ,
+        //     {
+        //         delay: 0,
+        //         orientation: 'down',
+        //         scale: 1.3,
+        //         overflow: true,
+        //         // customWrapper:''
+        //     }
     
-           )
-        const appearOnScroll=document.querySelectorAll("img");
-        new simpleParallax(   
-            appearOnScroll ,
-            {
-                delay: 0,
-                orientation: 'up',
-                scale: 1.3,
-                overflow: true,
-                // customWrapper:''
-            }
-    
-           )
+        //    )
 
-           const diamond_Image=document.querySelectorAll(".vwi");
-           new simpleParallax(   
-               diamond_Image ,
-               {
-                   delay: 0,
-                   orientation: 'right',
-                   scale: 1.3,
-                   overflow: true,
-                   // customWrapper:''
-               }
+           
+        // const appearOnScroll=document.querySelectorAll("img");
+        // new simpleParallax(   
+        //     appearOnScroll ,
+        //     {
+        //         delay: 0,
+        //         orientation: 'up',
+        //         scale: 1.3,
+        //         overflow: true,
+        //         // customWrapper:''
+        //     }
+    
+        //    )
+
+        //    const diamond_Image=document.querySelectorAll(".vwi");
+        //    new simpleParallax(   
+        //        diamond_Image ,
+        //        {
+        //            delay: 0,
+        //            orientation: 'right',
+        //            scale: 1.3,
+        //            overflow: true,
+        //            // customWrapper:''
+        //        }
        
-              )
+        //       )
        
             
        
@@ -84,11 +93,11 @@ function KonsulAi() {
             <div className="row-cols-2 d-lg-flex text-light my-5 ">
             <Fade bottom>
 
-            <div className="col-6 d-flex flex-column my-5 scrls">
+            <div className="col-6 d-flex flex-column my-5 scrls ">
                  
 
             <figure >
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e788c9e6bc08ac3c4_Rectangle%2079.svg"  style={{ zIndex:'6' }} className='dimg'   id='i1'  alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b640e788c9e6bc08ac3c4_Rectangle%2079.svg"  style={{ zIndex:'6' }}     className=''   id='i1'  alt="" />
               
                 {/* <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b6be997627b33ed8101e6_Vector_2.svg" alt="" /> */}
             </figure>
@@ -117,9 +126,28 @@ function KonsulAi() {
 
 
         { 
-        imageScroll()
-        }
+    imageScroll()    }
 
+
+
+{
+// dImage(diamond_Images)
+// console.log(diamond_Images)
+}
+
+
+
+    {
+          function dImage(){
+            window.addEventListener("scroll",()=>{
+                let scrollPosition = window.pageYOffset;
+                // console.log(scrollPosition)
+                diamond_Images.style.transform = `translateY(${scrollPosition * 1.5}%)`
+            })
+        }
+        
+    
+    }
 
 
         <div className="row">

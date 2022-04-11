@@ -82,11 +82,11 @@ function Home() {
                             const better = document.querySelector("#better")
                             const work = document.querySelector("#work")
                             const yg = document.querySelector("#yg")
-                            let scrollPosition = window.pageYOffset;
                             
                             better.style.transform = `translateX(${scrollPosition * -0.5}px)`
                             work.style.transform = `translateX(${scrollPosition * -0.5}px)`
                             yg.style.transform = `translateX(${scrollPosition * 0.5}px)`
+                            let scrollPosition = window.pageYOffset;
                             
                         })
                     } */}
