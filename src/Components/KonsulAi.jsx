@@ -5,6 +5,7 @@ import PM from './PM'
 import { Fade}  from 'react-reveal'
 import simpleParallax from 'simple-parallax-js';
 import { useState } from "react/cjs/react.production.min";
+import TryIt from "./Tryit";
 // import SecH from './secH'
 
 function KonsulAi() {
@@ -17,42 +18,48 @@ function KonsulAi() {
     
     function imageScroll(){
 
-        // const diamond_Images=document.querySelectorAll(".dimg");
-        // new simpleParallax(   
-        //     diamond_Images ,
-        //     {
-        //         delay: 0,
-        //         orientation: 'down',
-        //         scale: 1.3,
-        //         overflow: true,
-        //         // customWrapper:''
-        //     }
+        const diamond_Images=document.querySelectorAll(".dimg");
+        new simpleParallax(   
+            diamond_Images ,
+            {
+                delay: 0,
+                orientation: 'down',
+                scale: 1.3,
+                overflow: true,
+                // customWrapper:''
+            }
     
-        //    )
+           )
+
 
            
-        // const appearOnScroll=document.querySelectorAll("img");
-        // new simpleParallax(   
-        //     appearOnScroll ,
-        //     {
-        //         delay: 0,
-        //         orientation: 'up',
-        //         scale: 1.3,
-        //         overflow: true,
-        //         // customWrapper:''
-        //     }
+        const appearOnScroll=document.querySelectorAll("aimg");
+        new simpleParallax(   
+            appearOnScroll ,
+            {
+                delay: 0,
+                orientation: 'up',
+                scale: 1.3,
+                overflow: true,
+                // customWrapper:''
+            }
     
-        //    )
+           )
 
         //    const diamond_Image=document.querySelectorAll(".vwi");
         //    new simpleParallax(   
         //        diamond_Image ,
+
+
+
         //        {
         //            delay: 0,
         //            orientation: 'right',
         //            scale: 1.3,
         //            overflow: true,
         //            // customWrapper:''
+        
+        
         //        }
        
         //       )
@@ -301,7 +308,14 @@ function KonsulAi() {
             </div>
 
 
+        <TryIt/>
             </div>
+
+
+
+
+
+
             <div className="keyF my-5   ">
                 
                 <div className="row ">

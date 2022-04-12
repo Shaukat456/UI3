@@ -55,7 +55,7 @@ function Home() {
                 <span className=" d-md-flex col-lg-8 flex-lg-nowrap flex-md-wrap   " >
                   <h1 >WITH</h1>
                   <figure>
-                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg" className="arrimg " id='ari1' alt="" />
+                      <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61222041ae7b92522ff44f99_arrow%20top%20offer.svg" className="arrimg  img-responsive" id='ari1' alt="" />
                   </figure>
                      <h1 className="d-flex mr-md-5 pr-md-3" >YGGY</h1>
                     
@@ -63,7 +63,7 @@ function Home() {
 
 <span className="d-md-flex col-lg offset-md-5   ">
 
-                  <h1 className="  col-lg  ">TECHNOLOGIES</h1>
+                  <h1 className="  col-lg col-md-4 col-sm-2  ">TECHNOLOGIES</h1>
                     </span> 
                         
                 </div>

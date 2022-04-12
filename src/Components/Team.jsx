@@ -5,9 +5,34 @@ import {Fade, Slide} from 'react-reveal'
 import Contact from "./Contact";
 import Footer from './Footer'
 import PM from "./PM";
+import simpleParallax from 'simple-parallax-js';
+
 
 
 function Team() {
+
+
+function appearAboveOnScrollOnly(){
+
+  const appearOnScroll=document.querySelectorAll("aimg");
+  new simpleParallax(   
+      appearOnScroll ,
+      {
+          delay: 0,
+          orientation: 'up',
+          scale: 1.3,
+          overflow: true,
+          // customWrapper:''
+      }
+
+     )
+
+
+
+}
+
+
+
 
     return (
 
@@ -24,11 +49,11 @@ function Team() {
                 <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591a65ebf3eeaa4f699_Vector6.svg" className="a12" alt="" />
               </figure>
               <figure>
-                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591b03cedb07dfa2c41_Vector4.svg " className="a12 ar_team_2" alt="" />
+                <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/612b8591b03cedb07dfa2c41_Vector4.svg " className="a12 aimg ar_team_2" alt="" />
               </figure>
 
 <figure>
-  <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61393b5928313038e04266ec_%E2%9C%A6.svg" className="a12" alt="" />
+  <img src="https://uploads-ssl.webflow.com/61221299a58304224ec08ab2/61393b5928313038e04266ec_%E2%9C%A6.svg" className="a12 aimg" alt="" />
 </figure>
 
           </div>
@@ -57,7 +82,11 @@ function Team() {
         </div>
 
 <Platform/>
+{
 
+appearAboveOnScrollOnly()
+
+}
         </>
       );
 }

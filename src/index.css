@@ -691,6 +691,9 @@ input{
 
 
 @media only screen and (max-width:1700px) {
+  body{
+    overflow-wrap: normal;
+  }
   html{
     font-size: .95rem;
   }
@@ -706,7 +709,7 @@ input{
     /* text-align: center; */
     /* word-wrap: break-word; */
     /* overflow-wrap: inherit; */
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
    
   }
   .teamm{
